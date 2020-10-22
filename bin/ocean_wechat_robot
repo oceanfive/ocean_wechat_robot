@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'ocean_wechat_robot'
+
+OceanWechatRobot::Command.run(ARGV)

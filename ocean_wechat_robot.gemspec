@@ -43,5 +43,6 @@ Gem::Specification.new do |spec|
   # 添加依赖
   spec.add_runtime_dependency 'claide'
   spec.add_runtime_dependency 'colored2'
+  spec.add_runtime_dependency 'httparty'
 
 end
