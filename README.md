@@ -1,8 +1,6 @@
 # OceanWechatRobot
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ocean_wechat_robot`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+通过机器人向微信群发送消息
 
 ## Installation
 
@@ -22,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+```
+ocean_wechat_robot --webhook="https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=微信群key" --msg="测试一下" --msg-type="text" --at-mobiles="电话1,电话2"
+```
+
+- `--webhook`: 微信群的webhook链接
+- `--msg`: 需要发送的消息
+- `--msg-type`: 消息类型，支持 `text` `markdown`
+- `--at-mobiles`: 需要 @人的手机号，多个用 `,` 拼接
+
 
 ## Development
 
