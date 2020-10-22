@@ -1,6 +1,8 @@
 # OceanWechatRobot
 
-通过机器人向微信群发送消息
+通过机器人向微信群发送消息，官方链接
+
+https://work.weixin.qq.com/api/doc/90000/90136/91770
 
 ## Installation
 
